@@ -1,0 +1,43 @@
+body       {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 40px;
+}
+
+.features   {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.feature    {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature:hover     {
+  transform: translate(-5px);
+}
+
+.feature img       {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.feature h3     {
+  color: royalblue;
+  margin: 10px 0 5px;
+}
+
+.feature p     {
+  color: #555;
+  font-size: 14px;
+}
